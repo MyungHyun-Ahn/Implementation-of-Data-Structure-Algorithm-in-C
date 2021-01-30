@@ -25,6 +25,14 @@ void show() {
 	}
 }
 
+//특정한 위치의 원소를 삭제하는 함수
+void removeAt(int index) {
+	for (int i = index;i < count - 1;i++) {
+		arr[i] = arr[i + 1];
+	}
+	count--;
+}
+
 int main(void) {
 	//앞에서부터 저장
 	addFirst(4);
@@ -32,9 +40,10 @@ int main(void) {
 	addFirst(8);
 	//뒤로 저장
 	addBack(9);
+	removeAt(3);
 	addBack(7);
 	addBack(5);
-	//출력 예상 8 6 4 9 7 5
+	//출력 예상 8 6 4 7 5
 	show();
 	return 0;
 }
