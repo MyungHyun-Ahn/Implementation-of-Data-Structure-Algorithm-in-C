@@ -9,3 +9,4 @@
 ### 자료구조
 
 * [연결리스트](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8)
+* [스택](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%EC%8A%A4%ED%83%9D)
