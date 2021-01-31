@@ -4,16 +4,16 @@
 int arr[INF];
 int count = 0;
 
-//µ¥ÀÌÅÍ¸¦ ¹è¿­ÀÇ µŞºÎºĞ¿¡ ´ã´Â ÇÔ¼ö
+//ë°ì´í„°ë¥¼ ë°°ì—´ì˜ ë’·ë¶€ë¶„ì— ë‹´ëŠ” í•¨ìˆ˜
 void addBack(int data) {
 	arr[count] = data;
 	count++;
 }
 
-//µ¥ÀÌÅÍ¸¦ ¹è¿­ÀÇ ¾ÕºÎºĞ¿¡ ´ã´Â ÇÔ¼ö
+//ë°ì´í„°ë¥¼ ë°°ì—´ì˜ ì•ë¶€ë¶„ì— ë‹´ëŠ” í•¨ìˆ˜
 void addFirst(int data) {
 	for (int i = count;i > 0;i--) {
-		arr[i] = arr[i - 1];         //¹è¿­ÀÇ ¿ø¼Ò¸¦ ÇÑÄ­¾¿ ´ç°ÜÁÜ
+		arr[i] = arr[i - 1];         //ë°°ì—´ì˜ ì›ì†Œë¥¼ í•œì¹¸ì”© ë‹¹ê²¨ì¤Œ
 	}
 	arr[0] = data;
 	count++;
@@ -25,7 +25,7 @@ void show() {
 	}
 }
 
-//Æ¯Á¤ÇÑ À§Ä¡ÀÇ ¿ø¼Ò¸¦ »èÁ¦ÇÏ´Â ÇÔ¼ö
+//íŠ¹ì •í•œ ìœ„ì¹˜ì˜ ì›ì†Œë¥¼ ì‚­ì œí•˜ëŠ” í•¨ìˆ˜
 void removeAt(int index) {
 	for (int i = index;i < count - 1;i++) {
 		arr[i] = arr[i + 1];
@@ -34,16 +34,16 @@ void removeAt(int index) {
 }
 
 int main(void) {
-	//¾Õ¿¡¼­ºÎÅÍ ÀúÀå
+	//ì•ì—ì„œë¶€í„° ì €ì¥
 	addFirst(4);
 	addFirst(6);
 	addFirst(8);
-	//µÚ·Î ÀúÀå
+	//ë’¤ë¡œ ì €ì¥
 	addBack(9);
 	removeAt(3);
 	addBack(7);
 	addBack(5);
-	//Ãâ·Â ¿¹»ó 8 6 4 7 5
+	//ì¶œë ¥ ì˜ˆìƒ 8 6 4 7 5
 	show();
 	return 0;
 }
