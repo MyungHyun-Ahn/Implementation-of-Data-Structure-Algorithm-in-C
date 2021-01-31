@@ -67,6 +67,55 @@
 
 <br/>
 
+### 5. 양방향 연결 리스트
+
+<br/>
+
+* 머리(Head)와 꼬리(Tail)를 모두 가진다.
+* 각 노드는 앞 노드와 뒷 노드의 정보를 모두 저장하고 있다.
+* 구조체와 포인터로 구현이 가능하다.
+* 삽입 및 삭제 기능에서 예외 사항을 처리할 필요가 있다.
+* 더 이상 삭제할 원소가 없는데 삭제하는 경우 등을 체크하여야 한다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106377327-c3470380-63df-11eb-8afc-a1d831f2b4eb.PNG">
+
+<br/>
+
+### 6. 양방향 연결 리스트의 삽입
+
+<br/>
+
+
+**1.** 삽입할 노드가 있다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106377329-c5a95d80-63df-11eb-9daf-2edcf451ce43.PNG">
+
+**2.** 삽입할 노드의 전 노드의 next가 삽입할 노드의 prev를 가리키게 하고 삽입할 노드의 prev가 전 노드의 next를 가리키게 한다.
+
+**3.** 삽입할 노드의 다음 노드의 prev가 삽입할 노드의 next를 가리키게 하고 삽입할 노드의 next가 다음 노드의 prev를 가리키게 한다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106377330-c7732100-63df-11eb-9f12-c54701874ece.PNG">
+
+<br/>
+
+### 7. 양방향 연결 리스트의 삭제
+
+<br/>
+
+**1.** 삭제할 노드가 있다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106377334-c93ce480-63df-11eb-843c-4780f01aad43.PNG">
+
+**2.** 삭제할 노드의 전 노드의 next가 삭제할 노드의 다음 노드의 prev를 가리키게 한다.
+
+**3.** 삭제할 노드의 다음 노드의 prev가 삭제할 노드의 전 노드의 next를 가리키게 한다.
+
+**4.** 삭제할 노드의 메모리를 할당 해제한다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106377335-ca6e1180-63df-11eb-823b-f14221cf1252.PNG">
+
+<br/>
+
 
 
 
