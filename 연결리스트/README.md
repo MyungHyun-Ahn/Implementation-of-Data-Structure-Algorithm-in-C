@@ -37,6 +37,34 @@
 
 <br/>
 
-1. 
+**1.** 삽입할 노드가 있다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106376631-7ca2da80-63da-11eb-84ce-09ea1ee7a636.PNG">
+
+**2.** 삽입할 노드의 next가 삽입할 노드의 다음 노드를 가리키게 한다.
+
+**3.** 삽입할 노드의 전 노드의 next가 삽입할 노드를 가리키게 한다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106376638-8b898d00-63da-11eb-9e22-b96b0a6f3ccc.PNG">
+
+<br/>
+
+### 4. 단일 연결 리스트의 삭제
+
+<br/>
+
+**1.** 삭제할 노드가 있다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106376984-13709680-63dd-11eb-8222-78185f6ba9b2.PNG">
+
+**2.** 삭제할 전 노드의 next가 삭제할 노드의 다음 노드를 가리키게 한다.
+
+**3.** 삭제할 노드를 메모리 할당을 해제한다.
+
+<img src="https://user-images.githubusercontent.com/78206106/106376985-15d2f080-63dd-11eb-9089-2731a8da18fd.PNG">
+
+<br/>
+
+
 
 
