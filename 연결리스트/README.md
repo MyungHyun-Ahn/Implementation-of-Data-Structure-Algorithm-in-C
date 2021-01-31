@@ -29,7 +29,7 @@
 
 * 다음 노드가 없는 끝 노드의 다음 위치 값으로는 NULL을 넣는다.
 
-<img src="https://user-images.githubusercontent.com/78206106/106375933-e9ff3d00-63d3-11eb-9493-f14a7346bd56.PNG">
+<img src="https://user-images.githubusercontent.com/78206106/106376323-94c52a80-63d7-11eb-9ce1-b7993bc6b589.PNG">
 
 <br/>
 
