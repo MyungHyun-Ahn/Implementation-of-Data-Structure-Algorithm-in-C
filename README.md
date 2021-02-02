@@ -14,13 +14,31 @@
 
 ### 자료구조
 
-* [연결리스트](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8)
+* 선형구조
 
-* [스택](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%EC%8A%A4%ED%83%9D)
+1. [리스트](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8)
+2. [스택](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%EC%8A%A4%ED%83%9D)
+3. [큐](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%ED%81%90)
 
-* [큐](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%ED%81%90)
+* 비선형구조
+
+1. [트리](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%ED%8A%B8%EB%A6%AC)
+2. 그래프
+
+* 파일구조
+
+1. 순차파일
+2. 색인파일
+3. 직접파일
+
+* 단순구조
+
+1. 정수
+2. 실수
+3. 문자
+4. 문자열
+
+
+### 알고리즘
 
 * [정렬](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%EC%A0%95%EB%A0%AC)
-
-* [트리](https://github.com/MyungHyun-Ahn/Implementation-of-Data-Structure-Algorithm-in-C/tree/master/%ED%8A%B8%EB%A6%AC)
-
